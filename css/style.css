@@ -1,0 +1,13 @@
+:root {
+    --purple : #8a2be2;
+}
+
+@font-face {
+    font-family: "CQ";
+    src: url("../fonts/CQ Mono.otf");
+}
+
+* {
+    font-family: "CQ", sans-serif;
+    transition: 200ms;
+}
