@@ -16,10 +16,10 @@ form {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    padding: 5%;
-    background: #fefefe;
-    border: var(--purple) solid 5px;
-    border-radius: 50px;
+    padding: 3vw;
+    background: var(--white);
+    border: var(--purple) solid 0.8vh;
+    border-radius: 3vw;
 }
 
 label {
@@ -29,26 +29,29 @@ label {
 
 input {
     font-size: 2.5vh;
-    border-radius: 30px;
+    border-radius: 3vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    padding: 5%;
+    padding: 2vh;
     width: 15vw;
-    border: black solid 3px;
+    border: black solid 0.5vh;
     color: var(--purple);
 }
 
 ::placeholder {
     color: gray;
+}
 
 input[type="submit"] {
     background: var(--purple);
-    border: var(--purple) solid 3px;
-    color: white;
+    border: var(--purple) solid 0.5vh;
+    color: var(--white);
+    cursor: pointer;
 }
 
 input:hover {
-    background: #eaeaea;
+    background: var(--white);
+    filter: brightness(90%);
 }
 
 input[type="submit"]:hover {
@@ -56,5 +59,5 @@ input[type="submit"]:hover {
 }
 
 input:focus {
-    border: var(--purple) solid 3px;
+    border: var(--purple) solid 0.5vh;
 }
