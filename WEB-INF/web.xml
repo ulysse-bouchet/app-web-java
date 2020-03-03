@@ -8,4 +8,11 @@
         <error-code>404</error-code>
         <location>/login</location>
     </error-page>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <include-prelude>/WEB-INF/jsp/taglibs.jsp</include-prelude>
+        </jsp-property-group>
+    </jsp-config>
 </web-app>

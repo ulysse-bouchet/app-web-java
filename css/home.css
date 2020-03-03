@@ -52,3 +52,10 @@
     color: var(--purple);
     background: var(--white);
 }
+
+.list {
+    width: 50vw !important;
+    font-size: 2vh !important;
+    margin-top: 1.5vh !important;
+    text-align: left !important;
+}
