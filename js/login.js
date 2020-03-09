@@ -5,14 +5,14 @@ $(document).ready(function(){
     const lblPwd = $("#lbl-pwd");
 
     login.focusin(() => {
-        lblLogin.css({"color" : "#8a2be2", "font-size" : "3vh"});
+        lblLogin.css({"color" : "var(--light-blue)", "font-size" : "3vh"});
     });
     login.focusout(() => {
         let id = $(this).id;
         lblLogin.css({"color" : "black", "font-size" : "2vh"});
     });
     pwd.focusin(() => {
-        lblPwd.css({"color" : "#8a2be2", "font-size" : "3vh"});
+        lblPwd.css({"color" : "var(--light-blue)", "font-size" : "3vh"});
     });
     pwd.focusout(() => {
         let id = $(this).id;

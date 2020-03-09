@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 10vh;
-    background: var(--purple);
+    background: var(--light-blue);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +20,6 @@
 }
 
 #page {
-    height: 90vh;
     width: 80vw;
     margin: 30vh auto auto;
     display: flex;
@@ -30,7 +29,7 @@
 }
 
 #page>h2 {
-    color: var(--purple);
+    color: var(--light-blue);
     font-size: 5vh;
 }
 
@@ -44,12 +43,12 @@
     padding: 1vw;
     text-align: center;
     color: var(--white);
-    background: var(--purple);
-    border: var(--purple) solid 0.5vh;
+    background: var(--light-blue);
+    border: var(--light-blue) solid 0.5vh;
 }
 
 #page>a:hover {
-    color: var(--purple);
+    color: var(--light-blue);
     background: var(--white);
 }
 

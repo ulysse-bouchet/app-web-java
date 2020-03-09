@@ -9,7 +9,7 @@
     </head>
     <body>
         <h1>BiblioBrette</h1>
-        <form method='post' action='./login'>
+        <form method='post' action='${pageContext.request.contextPath}/login'>
             <label for='login' id='lbl-login'>Identifiant</label>
             <input type='text' id='login' name='login' placeholder='jfbrette'>
             <label for='pwd' id='lbl-pwd'>Mot de passe</label>
