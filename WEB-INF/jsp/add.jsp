@@ -21,15 +21,15 @@
     <div id='page'>
         <h2>Ajouter un nouveau document</h2>
         <form method='post' action='${pageContext.request.contextPath}/add' id="form">
-            <label for='title' id='lbl-login'>Titre</label>
+            <label for='title' id='lbl-title'>Titre</label>
             <input type='text' id='title' name='title' placeholder='Les Misérables'>
-            <label for='author' id='lbl-pwd'>Auteur</label>
+            <label for='author' id='lbl-author'>Auteur</label>
             <input type='text' id='author' name='author' placeholder='Victor Hugo'>
             <div id="radios">
+                <label for='book'>Livre</label>
+                <input type="radio" name="type" value="book" id='book' checked>
                 <label for='dvd'>DVD</label>
                 <input type="radio" name="type" value="dvd" id="dvd">
-                <label for='book'>Livre</label>
-                <input type="radio" name="type" value="book" id='book'>
             </div>
             <input type='submit' value='Ajouter'>
         </form>

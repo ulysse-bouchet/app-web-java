@@ -8,14 +8,12 @@ $(document).ready(function(){
         lblLogin.css({"color" : "var(--light-blue)", "font-size" : "3vh"});
     });
     login.focusout(() => {
-        let id = $(this).id;
         lblLogin.css({"color" : "black", "font-size" : "2vh"});
     });
     pwd.focusin(() => {
         lblPwd.css({"color" : "var(--light-blue)", "font-size" : "3vh"});
     });
     pwd.focusout(() => {
-        let id = $(this).id;
         lblPwd.css({"color" : "black", "font-size" : "2vh"});
     });
 });
