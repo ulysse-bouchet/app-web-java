@@ -23,8 +23,8 @@
 <div id='page'>
     <h2>Sélectionnez le document à retourner : </h2>
         <c:forEach items="${docs}" var="doc">
-            <a class="list" href='${pageContext.request.contextPath}/return?id=${doc.data()[1]}'>
-                ${doc.data()[0]}
+            <a class="list" href='${pageContext.request.contextPath}/return?id=${doc.data()[0]}'>
+                ${doc.toString()}
             </a>
         </c:forEach>
 </div>

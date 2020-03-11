@@ -23,9 +23,9 @@
 <div id='page'>
     <h2>Sélectionnez le document à emprunter : </h2>
         <c:forEach items="${docs}" var="doc">
-            <c:if test="${doc.data()[4] == null}">
-                <a class="list" href='${pageContext.request.contextPath}/borrow?id=${doc.data()[1]}'>
-                    ${doc.data()[0]}
+            <c:if test="${doc.data()[3] == null}">
+                <a class="list" href='${pageContext.request.contextPath}/borrow?id=${doc.data()[0]}'>
+                    ${doc.toString()}
                 </a>
             </c:if>
         </c:forEach>
