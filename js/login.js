@@ -4,6 +4,7 @@ $(document).ready(function(){
     const pwd = $("#pwd");
     const lblPwd = $("#lbl-pwd");
 
+    //When the user focuses on a field, its color changes
     login.focusin(() => {
         lblLogin.css({"color" : "var(--light-blue)", "font-size" : "3vh"});
     });
